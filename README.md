@@ -2,3 +2,6 @@
 [![](https://poggit.pmmp.io/shield.dl.total/Relics)](https://poggit.pmmp.io/p/Relics)
 # ComplexRelics
 An awesome relic plugin for PocketMine-MP!
+
+
+** FORKED FOR PURPOSES OF MY SERVER 
