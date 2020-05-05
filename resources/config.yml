@@ -102,6 +102,6 @@ legendary:
   #List of commands. Use {player} for the player.
   #A command will be chosen at random from this list.
   commands:
-    - "give {player} dirt 50"
-    - "give {player} stone 64"
+    - "sellwand {player} 16"
+    - "key rare {player} 1"
 ...
