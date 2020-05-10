@@ -103,6 +103,7 @@ legendary:
   #A command will be chosen at random from this list.
   commands:
     - "sellwand {player} 16"
+    - "condensewand {player} 16"
     - "key common {player} 1"
     - "key exotic {player} 1"
     - "key rare {player} 1"
