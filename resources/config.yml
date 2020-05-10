@@ -42,8 +42,11 @@ common:
   #List of commands. Use {player} for the player.
   #A command will be chosen at random from this list.
   commands:
-    - "give {player} dirt 5"
-    - "give {player} stone 10"
+    - "give {player} 384 8" # XP-BOTTLES
+    - "give {player} 42 10" # IRON-BLOCKS
+    - "moneypouch 2 {player}"
+    - "sellwand {player} 4"
+    - "key common {player} 1"
 
 #Rarity of Relic. Do not change this!
 rare:
@@ -62,8 +65,12 @@ rare:
   #List of commands. Use {player} for the player.
   #A command will be chosen at random from this list.
   commands:
-    - "give {player} dirt 10"
-    - "give {player} stone 25"
+    - "give {player} 384 16" # XP-BOTTLES
+    - "give {player} 41 10" # GOLD-BLOCKS
+    - "moneypouch 3 {player}"
+    - "sellwand {player} 8"
+    - "key common {player} 1"
+    - "key exotic {player} 1"
 
 #Rarity of Relic. Do not change this!
 epic:
@@ -82,8 +89,15 @@ epic:
   #List of commands. Use {player} for the player.
   #A command will be chosen at random from this list.
   commands:
-    - "give {player} dirt 25"
-    - "give {player} stone 50"
+    - "give {player} 384 32" # XP-BOTTLES
+    - "give {player} 133 10" # EMERALD-BLOCKS
+    - "moneypouch 4 {player}"
+    - "sellwand {player} 12"
+    - "condensewand {player} 12"
+    - "key common {player} 1"
+    - "key exotic {player} 1"
+    - "key rare {player} 1"
+    - "key potions {player} 1"
 
 #Rarity of Relic. Do not change this!
 legendary:
@@ -102,6 +116,9 @@ legendary:
   #List of commands. Use {player} for the player.
   #A command will be chosen at random from this list.
   commands:
+    - "give {player} 384 64" # XP-BOTTLES
+    - "give {player} 57 10" # DIAMOND-BLOCKS
+    - "moneypouch 5 {player}"
     - "sellwand {player} 16"
     - "condensewand {player} 16"
     - "key common {player} 1"
